@@ -10,6 +10,7 @@ p,ul,td,th{
 body{
     color: #efeee1;
     background-color: #62615d;
+    text-align: justify;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
