@@ -20,14 +20,14 @@ p{
 
 /* a = 0, b = 1, c = 1 -> especifidad = 11 */
 a:visited{
-    color: #d59f3f;
+    color: white;
     background-color: #62615d;
     text-decoration-style: dotted ;
 }
 
 /* a = 0, b = 1, c = 1 -> especifidad = 11*/
 a:link{
-    color: white;
+    color: #d59f3f;
     background-color: #62615d;
     text-decoration-style: dashed;
 }
