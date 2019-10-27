@@ -28,32 +28,32 @@ h2,h4,h6{
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h1{
-    size: 14em;
+    resize: 14em;
     letter-spacing: 2em;
     border-radius: 5em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h2{
-    size: 10em;
+    resize: 10em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h3{
-    size: 8em;
+    resize: 8em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h4{
-    size: 6em;
+    resize: 6em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h5{
-    size: 4em;
+    resize: 4em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h6{
-    size: 2em;
+    resize: 2em;
 }
