@@ -8,52 +8,40 @@ h1,h2,h3,h4,h5,h6{
     margin: 20px;
     text-align: center;
     text-transform: uppercase;
-
-}
-
-/* a = 0, b = 0, c = 2 -> especifidad = 2 */
-h1,h6{
     font-weight: bold;
 }
 
-/* a = 0, b = 0, c = 3 -> especifidad = 3 */
-h1,h3,h5{
-    font-stretch: expanded;
-}
-
-/* a = 0, b = 0, c = 3 -> especifidad = 3 */
-h2,h4,h6{
-    font-style: italic;
-}
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h1{
-    resize: 14em;
+    font-size:  2.25em;
     letter-spacing: 2em;
     border-radius: 5em;
+    font-stretch: expanded;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h2{
-    resize: 10em;
+    font-size: 2em;
+    font-style: italic;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h3{
-    resize: 8em;
+    font-size: 1.75em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h4{
-    resize: 6em;
+    font-size: 1.5em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h5{
-    resize: 4em;
+    font-size: 1.25em;
 }
 
 /* a = 0, b = 0, c = 1 -> especifidad = 1 */
 h6{
-    resize: 2em;
+    font-size: 1em;
 }
